@@ -1,7 +1,8 @@
-1. Run rest_test.py 
+1. Download / copy rest_test.py and run it.
 2. Open a browser at:
 http://localhost:5000/data/<ID>
 For example:
 http://localhost:5000/data/123
 
-3. Post data to http://localhost:5000/data/123 using request_payload.json file (as an example).
+3. Post data to http://localhost:5000/data/123 
+(we can use request_payload.json file as an example).
