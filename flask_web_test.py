@@ -9,6 +9,13 @@ def random():
     random_number = randint(1, 10)
     return {'random': random_number}
 
+# using default
+@app.route('/hello')
+@app.route('/hello/<user_id>')
+def user(user_id = 'no one'):
+    return 'Hello ' + user_id
+
+
 # accessed via <HOST>:<PORT>/welcome
 @app.route("/welcome")
 def welcome():
