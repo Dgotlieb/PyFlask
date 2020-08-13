@@ -11,9 +11,9 @@ def random():
 
 # using default
 @app.route('/hello')
-@app.route('/hello/<user_id>')
-def user(user_id = 'no one'):
-    return 'Hello ' + user_id
+@app.route('/hello/<user_name>')
+def hello_user(user_name = 'no one'):
+    return 'Hello ' + user_name
 
 
 # accessed via <HOST>:<PORT>/welcome
