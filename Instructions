@@ -3,6 +3,3 @@
 http://localhost:5000/data/<ID>
 For example:
 http://localhost:5000/data/123
-
-3. Post data to http://localhost:5000/data/123 
-(we can use request_payload.json file as an example).
